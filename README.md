@@ -74,10 +74,3 @@ python main.py --issue URL --dry-run    # plan only, no code changes
 python main.py --issue URL --no-pr      # fix but skip PR
 python main.py --issue URL --verbose    # detailed output
 ```
-
-## Resume Bullet Points (for your CV/LinkedIn)
-
-- Built **DevAgent** — an autonomous SWE agent using LangGraph + Mistral API that ingests GitHub issue URLs and opens tested pull requests with zero human intervention
-- Engineered a 6-node LangGraph StateGraph (Plan → Explore → Code → Test ↔ Debug → PR) with conditional retry routing and tool-calling loops
-- Implemented reliable file editing via `str_replace_in_file` with automatic fallback to `write_file`, achieving 13s fix time on the local integration test
-- Evaluated on SWE-bench Lite: `python scripts/eval_swebench.py --limit 50`
