@@ -1,4 +1,4 @@
-# 🤖 DevAgent — Autonomous Software Engineering Agent
+# DevAgent — Autonomous Software Engineering Agent
 
 > Give it a GitHub issue URL. It opens a tested Pull Request. Zero human intervention.
 
